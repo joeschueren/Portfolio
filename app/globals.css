@@ -23,7 +23,6 @@ body {
   
   background-size: cover;
   background-position: center;
-  text-align: center;
 }
 
 .nav{
@@ -42,7 +41,6 @@ body {
 .name-text{
   color: var(--main-color);
   font-size: 5vh;
-  text-align: center;
 }
 
 .project-box{

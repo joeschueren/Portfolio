@@ -20,9 +20,16 @@ export default function Home() {
         </div>
       </div>
       <section id="projects" className="landing-section flex justify-center w-full h-screen items-center">
-        <div className="intro-div intro h-1/5 w-2/5">
-          <h1 className="name-text">Hi, I'm Joe.</h1>
-          <h3>A Software Developer</h3>
+        <div className="flex flex-row justify-end">
+          <div className="intro-div intro h-1/5 w-2/5 flex justify-center items-center flex-col">
+            <div>
+              <h1 className="name-text">Hi, I'm Joe.</h1>
+              <h3>A Software Developer</h3>
+            </div>
+          </div>
+          <div className="block justify-end">
+            <img className="landing-image w-4/5" src="/landing-image.svg"></img>
+          </div>
         </div>
       </section>
       <section className="projects-section mt-52">
