@@ -20,29 +20,37 @@ export default function Home() {
         </div>
       </div>
       <section id="projects" className="landing-section flex justify-center w-full h-screen items-center">
-        <div className="flex flex-row justify-end">
-          <div className="intro-div intro h-1/5 w-2/5 flex justify-center items-center flex-col">
+        <div className="flex flex-row justify-end w-4/5">
+          <div className="intro-div w-2/5 flex justify-center items-center flex-row text-center">
             <div>
-              <h1 className="name-text">Hi, I'm Joe.</h1>
-              <h3>A Software Developer</h3>
+              <h1 className="name-text p-1.5">Hi, I'm Joe.</h1>
+              <h2 className="title-text p-1">A Software Developer</h2>
+              <button className="projects-button px-3 py-1.5 my-3 ">View my work <i className="fa-solid fa-arrow-right px-2"></i></button>
             </div>
           </div>
           <div className="block justify-end">
-            <img className="landing-image w-4/5" src="/landing-image.svg"></img>
+            <img className="landing-image" src="/landing-image.svg"></img>
           </div>
         </div>
       </section>
       <section className="projects-section mt-52">
-        <h1 className="text-center text-6xl">My Projects</h1>
+        <h1 className="text-center text-6xl">Projects</h1>
         <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="flex justify-center items-center flex-wrap">
-            <div className="project-box w-1/4 h-1/4">1</div>
-            <div className="project-box w-1/4 h-1/4">2</div>
+          <div className="project flex w-4/5 my-20 py-10 rounded-2xl justify-center items-center flex-row">
+          <div className="project1-image pr-10 w-2/5 h-4/5">
+            <img src="/Ecom-Image.png" alt="E-commerce Website"/>
           </div>
-          <div className="flex justify-center items-center flex-wrap">
-            <div className="project-box w-1/4 h-1/4">3</div>
-            <div className="project-box w-1/4 h-1/4">4</div>
+          <div className="w-2/5 pl-10 text-center text-white">
+              <div className="">
+                <h1 className="text-xl">E-commerce Website</h1>
+                <p className="text-sm">This is an e-commerce website created with items obtained from fakestore api</p>
+              </div>
+              <div className="">
+                <h3 className="text-lg">Created With:</h3>
+                <p>React Node Express MongoDB</p>
+              </div>
           </div>
+        </div>
         </div>
       </section>
     </div>)
