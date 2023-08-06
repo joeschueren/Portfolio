@@ -36,11 +36,11 @@ export default function Home() {
       <section className="projects-section mt-52">
         <h1 className="text-center text-6xl">Projects</h1>
         <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex w-4/5 my-20 py-10 rounded-2xl justify-center items-center flex-row">
-          <div className="project-image pr-10 h-4/5 w-1/2">
-            <img src="/ecom-preview.png" alt="E-commerce Website"/>
+          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+          <div className="project-image w-2/5">
+            <img src="/ecom-both.png" alt="E-commerce Website laptop"/>
           </div>
-          <div className="project-desc w-2/5 p-10 text-white">
+          <div className="project-desc w-2/5 p-10">
               <div className="">
                 <h1 className="text-2xl pb-5 text-center">E-commerce Website</h1>
                 <p className="text-sm pb-5 text-left">
@@ -52,10 +52,7 @@ export default function Home() {
               <div className="">
                 <h3 className="text-xl text-center">Created With:</h3>
                 <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
-                  <div className="tech mx-.5 my-1">React</div>
-                  <div className="tech mx-.5 my-1">Express.js</div>
-                  <div className="tech mx-.5 my-1">Node.js</div>
-                  <div className="tech mx-.5 my-1">MongoDB</div>
+                  <p>React &middot; Express.js &middot; Node.js &middot; MongoDB</p>
                 </div>
               </div>
           </div>
