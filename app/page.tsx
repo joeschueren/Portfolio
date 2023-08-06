@@ -37,20 +37,29 @@ export default function Home() {
         <h1 className="text-center text-6xl">Projects</h1>
         <div className="projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex w-4/5 my-20 py-10 rounded-2xl justify-center items-center flex-row">
-          <div className="project1-image pr-10 w-2/5 h-4/5">
-            <img src="/Ecom-Image.png" alt="E-commerce Website"/>
+          <div className="project-image pr-10 h-4/5 w-1/2">
+            <img src="/ecom-preview.png" alt="E-commerce Website"/>
           </div>
-          <div className="w-2/5 pl-10 text-center text-white">
+          <div className="project-desc w-2/5 p-10 text-white">
               <div className="">
-                <h1 className="text-xl">E-commerce Website</h1>
-                <p className="text-sm">This is an e-commerce website created with items obtained from fakestore api</p>
+                <h1 className="text-2xl pb-5 text-center">E-commerce Website</h1>
+                <p className="text-sm pb-5 text-left">
+                  This is an e-commerce website created with items obtained from fakestore api
+                  it displays the items from the inventory stored in a database and tracks the items
+                  items that the user wants to buy with a cart system.
+                </p>
               </div>
               <div className="">
-                <h3 className="text-lg">Created With:</h3>
-                <p>React Node Express MongoDB</p>
+                <h3 className="text-xl text-center">Created With:</h3>
+                <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
+                  <div className="tech mx-.5 my-1">React</div>
+                  <div className="tech mx-.5 my-1">Express.js</div>
+                  <div className="tech mx-.5 my-1">Node.js</div>
+                  <div className="tech mx-.5 my-1">MongoDB</div>
+                </div>
               </div>
           </div>
-        </div>
+         </div>
         </div>
       </section>
     </div>)

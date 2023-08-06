@@ -9,6 +9,12 @@
   --fourth-color: #EEEEEE;
 }
 
+.container{
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: white;
+}
+
 
 body {
   background-color: white;
@@ -26,7 +32,7 @@ body {
 .nav{
   position: fixed;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100%;
   height: 75px;
   padding: 20px 25px;
@@ -61,6 +67,28 @@ body {
   background-color: var(--main-color);
 }
 
+.tech{
+  background-color:#716af9;
+  padding: 3px 5px;
+  color: white;
+}
+
+@media(max-width: 1000px){
+  .project-image, .project-desc{
+    width: 85%;
+    height: 50%;
+    padding: 0px;
+    padding-bottom: 15px;
+  }
+
+  .project{
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media(max-width: 767px){
 
   .nav{
@@ -82,6 +110,10 @@ body {
 
   .title-text{
     font-size: 1.5rem;
+  }
+
+  .project{
+    width: 90%;
   }
 
 }
