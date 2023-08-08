@@ -60,10 +60,30 @@ body {
   background-color: var(--main-color);
 }
 
-.tech{
-  background-color:#716af9;
-  padding: 3px 5px;
+.live-demo{
+  border: 2px solid black;
+
+}
+
+.view-code{
+  background-color: black;
   color: white;
+}
+
+.live-demo, .view-code{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.view-code:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.live-demo:hover{
+  opacity: 50%;
+  cursor: pointer;
 }
 
 @media(max-width: 1000px){

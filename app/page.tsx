@@ -55,6 +55,38 @@ export default function Home() {
                   <p>React &middot; Express.js &middot; Node.js &middot; MongoDB</p>
                 </div>
               </div>
+              <div className="flex justify-center items-center py-10">
+                <a className="live-demo mx-2.5">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5">View Code <i className="fa-brands fa-github"></i></a>
+              </div>
+          </div>
+         </div>
+        </div>
+        <div className="projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+          <div className="project-image w-2/5">
+            <img src="/drawing-both.png" alt="E-commerce Website laptop"/>
+          </div>
+          <div className="project-desc w-2/5 p-10">
+              <div className="">
+                <h1 className="text-2xl pb-5 text-center">SketchDetect AI</h1>
+                <p className="text-sm pb-5 text-left">
+                  SketchDetect is a form of Artificial Intelligence that can tell what a user is drawing.
+                  I find AI very interesting and wanted to create my own. With very little computing power
+                  and having to collect all of the data by myself I decided on making the most complex neural
+                  network that I thought would be plausible, and decided on making one that can detect hand drawn images.
+                </p>
+              </div>
+              <div className="">
+                <h3 className="text-xl text-center">Created With:</h3>
+                <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
+                  <p>Python &middot; Flask &middot; TensorFlow &middot; Numpy &middot; PIL</p>
+                </div>
+              </div>
+              <div className="flex justify-center items-center py-10">
+                <a className="live-demo mx-2.5">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5">View Code <i className="fa-brands fa-github"></i></a>
+              </div>
           </div>
          </div>
         </div>
