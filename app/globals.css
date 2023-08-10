@@ -56,8 +56,12 @@ body {
   border: 2px solid var(--main-color);
 }
 
-.project-image{
-  background-color: var(--main-color);
+.projects-section{
+  width: 100%;
+}
+
+.tech-container{
+  text-align: center;
 }
 
 .live-demo{
