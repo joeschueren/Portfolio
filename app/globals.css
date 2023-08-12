@@ -33,7 +33,9 @@ body {
   position: fixed;
   display: flex;
   justify-content: flex-end;
+  overflow: hidden;
   width: 100%;
+  max-width: 1920px;
   height: 75px;
   padding: 20px 25px;
 }
@@ -180,4 +182,16 @@ body {
     justify-content: space-between;
   }
 
+}
+
+@media (min-width: 1921px) {
+  .name-text{
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .title-text{
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
 }

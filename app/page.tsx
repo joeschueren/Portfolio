@@ -186,5 +186,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section id="email">
+        <div className="flex item-center justify-center w-full">
+            <div className="w-2/5">
+
+            </div>
+            <div className="w-2/5">
+
+            </div>
+        </div>
+      </section>
     </div>)
 }
