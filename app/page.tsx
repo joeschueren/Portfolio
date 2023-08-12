@@ -151,37 +151,37 @@ export default function Home() {
         </div>
       </section>
       <section id="about" className="my-28">
-        <div className="flex items-center justify-center w-full">
-          <div className="w-2/5">
-          <p className="text-2xl pb-3">About Me</p>
+        <div className="flex items-center justify-center w-full flex-wrap flex-row about-div">
+          <div className="about-box w-2/5">
+          <p className="text-2xl py-6">About Me</p>
               <p className="text-lg">I am a 20 year old software developer from Ohio, I enjoy Golfing, Fantasy Football, and
                 helping with friends with their programming homework. I first starting programming in
                 highschool, and was immediately fascinated. Now I encourage everyone to learn how to program
-                and see what they are missing out on.
+                and see the world they are missing out on.
               </p>
           </div>
-          <div className="w-2/5">
-            <p className="text-2xl pb-3">Skills</p>
+          <div className="about-box w-2/5">
+            <p className="text-2xl py-6">My Skills</p>
             <p className="text-center pb-3">Languages</p>
             <div className="flex items-center justify-evenly px-20 pb-3">
-              <img src="JS.png" width="50" height="50"></img>
-              <img src="TS.png" width="50" height="50"></img>
-              <img src="PY.png" width="50" height="50"></img>
-              <img src="CS.png" width="50" height="50"></img>
+              <img className="tech-image" src="JS.png" width="50" height="50"></img>
+              <img className="tech-image" src="TS.png" width="50" height="50"></img>
+              <img className="tech-image" src="PY.png" width="50" height="50"></img>
+              <img className="tech-image"src="CS.png" width="50" height="50"></img>
             </div>
             <p className="text-center pb-3">Frontend</p>
             <div className="flex items-center justify-evenly px-20 pb-3">
-              <img src="React.png" width="50" height="50"></img>
-              <img src="Next.png" width="50" height="50"></img>
-              <img src="Boot.png" width="50" height="50"></img>
-              <img src="Tail.png" width="50" height="50"></img>
+              <img className="tech-image" src="React.png" width="50" height="50"></img>
+              <img className="tech-image" src="Next.png" width="50" height="50"></img>
+              <img className="tech-image" src="Boot.png" width="50" height="50"></img>
+              <img className="tech-image" src="Tail.png" width="50" height="50"></img>
             </div>
             <p className="text-center pb-3">Backend</p>
             <div className="flex items-center justify-evenly px-20 pb-3">
-              <img src="Node.png" width="50" height="50"></img>
-              <img src="Flask.png" width="50" height="50"></img>
-              <img src="Net.png" width="50" height="50"></img>
-              <img src="Mongo.png" width="50" height="50"></img>
+              <img className="tech-image" src="Node.png" width="50" height="50"></img>
+              <img className="tech-image" src="Flask.png" width="50" height="50"></img>
+              <img className="tech-image" src="Net.png" width="50" height="50"></img>
+              <img className="tech-image" src="Mongo.png" width="50" height="50"></img>
             </div>
           </div>
         </div>
