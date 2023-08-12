@@ -20,12 +20,12 @@ export default function Home() {
         </div>
       </div>
       <section className="landing-section flex justify-center w-full h-screen items-center">
-        <div className="flex flex-row justify-end w-4/5">
+        <div className="flex flex-row justify-end w-4/5 landing-container">
           <div className="intro-div w-2/5 flex justify-center items-center flex-row text-center">
             <div>
               <h1 className="name-text p-1.5">Hi, I'm Joe.</h1>
-              <h2 className="title-text p-1">A Software Developer</h2>
-              <button className="projects-button px-3 py-1.5 my-3 ">View my work <i className="fa-solid fa-arrow-right px-2"></i></button>
+              <h2 className="title-text p-1 mb-3">A Software Developer</h2>
+              <a className="projects-button px-3 py-1.5" href="#projects">View my work <i className="fa-solid fa-arrow-right px-2"></i></a>
             </div>
           </div>
           <div className="block justify-end">
@@ -55,9 +55,9 @@ export default function Home() {
                   <p>React &middot; Express.js &middot; Node.js &middot; MongoDB</p>
                 </div>
               </div>
-              <div className="flex justify-center items-center py-10">
-                <a className="live-demo mx-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+              <div className="flex justify-center items-center py-10 flex-wrap">
+                <a className="live-demo mx-2.5 my-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
@@ -83,9 +83,9 @@ export default function Home() {
                   <p>Python &middot; Flask &middot; TensorFlow &middot; Numpy &middot; PIL</p>
                 </div>
               </div>
-              <div className="flex justify-center items-center py-10">
-                <a className="live-demo mx-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5" href="https://github.com/joeschueren/SketchDetect" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+              <div className="flex justify-center items-center py-10 flex-wrap">
+                <a className="live-demo mx-2.5 my-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/SketchDetect" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
@@ -112,9 +112,9 @@ export default function Home() {
                   <p>Typescript &middot; Next.js &middot; React &middot; Express.js &middot; MongoDB</p>
                 </div>
               </div>
-              <div className="flex justify-center items-center py-10">
-                <a className="live-demo mx-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+              <div className="flex justify-center items-center py-10 flex-wrap">
+                <a className="live-demo mx-2.5 my-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
@@ -142,9 +142,9 @@ export default function Home() {
                   <p>C# &middot; .Net &middot; MVC &middot; SQL Database</p>
                 </div>
               </div>
-              <div className="flex justify-center items-center py-10">
-                <a className="live-demo mx-2.5">Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5" href="https://github.com/joeschueren/Boost-Fitness" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+              <div className="flex justify-center items-center py-10 flex-wrap">
+                <a className="live-demo mx-2.5 my-2.5">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/Boost-Fitness" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
@@ -152,7 +152,7 @@ export default function Home() {
       </section>
       <section id="about" className="my-28">
         <div className="flex items-center justify-center w-full flex-wrap flex-row about-div">
-          <div className="about-box w-2/5">
+          <div className="about-box w-2/5 h-full mb-auto">
           <p className="text-2xl py-6">About Me</p>
               <p className="text-lg">I am a 20 year old software developer from Ohio, I enjoy Golfing, Fantasy Football, and
                 helping with friends with their programming homework. I first starting programming in
@@ -160,24 +160,24 @@ export default function Home() {
                 and see the world they are missing out on.
               </p>
           </div>
-          <div className="about-box w-2/5">
+          <div className="about-box w-2/5 h-full">
             <p className="text-2xl py-6">My Skills</p>
-            <p className="text-center pb-3">Languages</p>
-            <div className="flex items-center justify-evenly px-20 pb-3">
+            <p className="text-center py-6">Languages</p>
+            <div className="tech-row flex items-center justify-evenly px-20 pb-3">
               <img className="tech-image" src="JS.png" width="50" height="50"></img>
               <img className="tech-image" src="TS.png" width="50" height="50"></img>
               <img className="tech-image" src="PY.png" width="50" height="50"></img>
               <img className="tech-image"src="CS.png" width="50" height="50"></img>
             </div>
-            <p className="text-center pb-3">Frontend</p>
-            <div className="flex items-center justify-evenly px-20 pb-3">
+            <p className="text-center py-6">Frontend</p>
+            <div className="tech-row flex items-center justify-evenly px-20 pb-3">
               <img className="tech-image" src="React.png" width="50" height="50"></img>
               <img className="tech-image" src="Next.png" width="50" height="50"></img>
               <img className="tech-image" src="Boot.png" width="50" height="50"></img>
               <img className="tech-image" src="Tail.png" width="50" height="50"></img>
             </div>
-            <p className="text-center pb-3">Backend</p>
-            <div className="flex items-center justify-evenly px-20 pb-3">
+            <p className="text-center py-6">Backend</p>
+            <div className="tech-row flex items-center justify-evenly px-20 pb-3">
               <img className="tech-image" src="Node.png" width="50" height="50"></img>
               <img className="tech-image" src="Flask.png" width="50" height="50"></img>
               <img className="tech-image" src="Net.png" width="50" height="50"></img>
