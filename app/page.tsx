@@ -161,26 +161,29 @@ export default function Home() {
               </p>
           </div>
           <div className="about-box w-2/5 h-full">
-            <p className="text-2xl py-6">Contact Me</p>
-            <div className="pl-6">
+            <p className="text-2xl py-6 px-3">Contact Me</p>
+            <div className="pl-10">
               <p className="text-lg">Email Address:</p>
-              <p className="pl-6">jschueren1431@gmail.com</p>
+              <a className="pl-10 underline" href="mailto:jschueren1431@gmail.com">jschueren1431@gmail.com</a>
               <p className="text-lg">Linked In:</p>
-              <p className="pl-6">placeholder</p>
+              <p className="pl-10 underline">placeholder</p>
               <p className="text-lg">Github:</p>
-              <p className="pl-6">joeschueren</p>
+              <a className="pl-10 underline" href="https://github.com/joeschueren">joeschueren</a>
             </div>
           </div>
         </div>
       </section>
       <section id="email">
-        <div className="flex item-center justify-center w-full">
-            <div className="w-2/5">
-
+        <div className="flex item-center justify-center w-full mb-28">
+        <p className="text-2xl">My Skills</p>
+            <div className="w-2/5 flex items-center justify-center">
+              <p className="w-4/5 text-center text-lg">
+                These are the some of the skills that are highlighted in my projects and portfolio. Each of my projects
+                has a breakdown of which skills were used to make it. If you want to view a project with a specific skill
+                click on the skill and it will take you to the project.</p>
             </div>
             <div className="about-box w-2/5 h-full">
-            <p className="text-2xl py-6">My Skills</p>
-            <p className="text-center py-6">Languages</p>
+            <p className="text-center pb-6 pt-12">Languages</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
               <img className="tech-image" src="JS.png" width="50" height="50"></img>
               <img className="tech-image" src="TS.png" width="50" height="50"></img>

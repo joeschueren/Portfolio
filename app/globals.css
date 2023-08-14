@@ -94,11 +94,6 @@ body {
   cursor: pointer;
 }
 
-#about{
-  background-color: #837cfc;
-  color: white;
-}
-
 @media(max-width: 1000px){
   .project-image, .project-desc{
     width: 85%;
