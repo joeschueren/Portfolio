@@ -185,24 +185,24 @@ export default function Home() {
             <div className="about-box w-2/5 h-full">
             <p className="text-center pb-6 pt-12">Languages</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
-              <a href="#store" className="text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
-              <a href="#geo"><img className="tech-image" src="TS.png" width="50" height="50">Typescript</img></a>
-              <img className="tech-image" src="PY.png" width="50" height="50">Python</img>
-              <img className="tech-image"src="CS.png" width="50" height="50">C#</img>
+              <a href="#store" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.png" width="50" height="50"></img>Typescript</a>
+              <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.png" width="50" height="50"></img>Python</a>
+              <a href="boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.png" width="50" height="50"></img>C#</a>
             </div>
             <p className="text-center py-6">Frontend</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
-              <img className="tech-image" src="React.png" width="50" height="50">React</img>
-              <img className="tech-image" src="Next.png" width="50" height="50">Next.js</img>
-              <img className="tech-image" src="Boot.png" width="50" height="50">Bootstrap</img>
-              <img className="tech-image" src="Tail.png" width="50" height="50">Tailwind CSS</img>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.png" width="50" height="50"></img>React</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.png" width="50" height="50"></img>Next.js</a>
+              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.png" width="50" height="50"></img>Bootstrap</a>
+              <a className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.png" width="50" height="50"></img>Tailwind</a>
             </div>
             <p className="text-center py-6">Backend</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
-              <img className="tech-image" src="Node.png" width="50" height="50">Node.js</img>
-              <img className="tech-image" src="Flask.png" width="50" height="50">Flask</img>
-              <img className="tech-image" src="Net.png" width="50" height="50">.Net</img>
-              <img className="tech-image" src="Mongo.png" width="50" height="50">MongoDB</img>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Node.png" width="50" height="50"></img>Node.js</a>
+              <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Flask.png" width="50" height="50"></img>Flask</a>
+              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Net.png" width="50" height="50"></img>.Net</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Mongo.png" width="50" height="50"></img>MongoDB</a>
             </div>
           </div>
         </div>

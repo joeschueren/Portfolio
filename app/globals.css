@@ -94,6 +94,10 @@ body {
   cursor: pointer;
 }
 
+.tech-anchor{
+  height: 30%;
+}
+
 @media(max-width: 1000px){
   .project-image, .project-desc{
     width: 85%;
