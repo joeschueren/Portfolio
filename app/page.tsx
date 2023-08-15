@@ -36,7 +36,7 @@ export default function Home() {
       <section className="projects-section mt-28">
         <h1 id="projects" className="text-center text-6xl mt-5">Projects</h1>
         <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+          <div id="store" className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/ecom-both.png" alt="E-commerce Website laptop"/>
           </div>
@@ -63,7 +63,7 @@ export default function Home() {
          </div>
         </div>
         <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+          <div id="ai" className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/drawing-both.png" alt="E-commerce Website laptop"/>
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
          </div>
         </div>
         <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+          <div id="geo" className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/geo-prod.png" alt="E-commerce Website laptop"/>
           </div>
@@ -120,7 +120,7 @@ export default function Home() {
          </div>
         </div>
         <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+          <div id="boost" className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/fitness-prod.png" alt="E-commerce Website laptop"/>
           </div>
@@ -174,9 +174,9 @@ export default function Home() {
         </div>
       </section>
       <section id="email">
-        <div className="flex item-center justify-center w-full mb-28">
+        <div className="about-div flex item-center justify-center w-full mb-28">
         <p className="text-2xl">My Skills</p>
-            <div className="w-2/5 flex items-center justify-center">
+            <div className="w-2/5 skill-desc flex items-center justify-center">
               <p className="w-4/5 text-center text-lg">
                 These are the some of the skills that are highlighted in my projects and portfolio. Each of my projects
                 has a breakdown of which skills were used to make it. If you want to view a project with a specific skill
@@ -185,24 +185,24 @@ export default function Home() {
             <div className="about-box w-2/5 h-full">
             <p className="text-center pb-6 pt-12">Languages</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
-              <img className="tech-image" src="JS.png" width="50" height="50"></img>
-              <img className="tech-image" src="TS.png" width="50" height="50"></img>
-              <img className="tech-image" src="PY.png" width="50" height="50"></img>
-              <img className="tech-image"src="CS.png" width="50" height="50"></img>
+              <a href="#store" className="text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
+              <a href="#geo"><img className="tech-image" src="TS.png" width="50" height="50">Typescript</img></a>
+              <img className="tech-image" src="PY.png" width="50" height="50">Python</img>
+              <img className="tech-image"src="CS.png" width="50" height="50">C#</img>
             </div>
             <p className="text-center py-6">Frontend</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
-              <img className="tech-image" src="React.png" width="50" height="50"></img>
-              <img className="tech-image" src="Next.png" width="50" height="50"></img>
-              <img className="tech-image" src="Boot.png" width="50" height="50"></img>
-              <img className="tech-image" src="Tail.png" width="50" height="50"></img>
+              <img className="tech-image" src="React.png" width="50" height="50">React</img>
+              <img className="tech-image" src="Next.png" width="50" height="50">Next.js</img>
+              <img className="tech-image" src="Boot.png" width="50" height="50">Bootstrap</img>
+              <img className="tech-image" src="Tail.png" width="50" height="50">Tailwind CSS</img>
             </div>
             <p className="text-center py-6">Backend</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
-              <img className="tech-image" src="Node.png" width="50" height="50"></img>
-              <img className="tech-image" src="Flask.png" width="50" height="50"></img>
-              <img className="tech-image" src="Net.png" width="50" height="50"></img>
-              <img className="tech-image" src="Mongo.png" width="50" height="50"></img>
+              <img className="tech-image" src="Node.png" width="50" height="50">Node.js</img>
+              <img className="tech-image" src="Flask.png" width="50" height="50">Flask</img>
+              <img className="tech-image" src="Net.png" width="50" height="50">.Net</img>
+              <img className="tech-image" src="Mongo.png" width="50" height="50">MongoDB</img>
             </div>
           </div>
         </div>

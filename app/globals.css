@@ -160,6 +160,10 @@ body {
     flex-direction: column;
   }
 
+  .skill-desc{
+    width: 85%;
+  }
+
   .about-box{
     width: 90%;
     text-align: center;
