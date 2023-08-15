@@ -169,7 +169,7 @@ body {
   }
 
   .about-box{
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin-bottom: 1rem;
   }
@@ -188,6 +188,11 @@ body {
 
   .tech-row{
     justify-content: space-between;
+  }
+
+  .tech-title{
+    text-align: center;
+    padding-bottom: 3rem;
   }
 
 }

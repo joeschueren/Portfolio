@@ -35,8 +35,8 @@ export default function Home() {
       </section>
       <section className="projects-section mt-28">
         <h1 id="projects" className="text-center text-6xl mt-5">Projects</h1>
-        <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div id="store" className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="store" className="projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/ecom-both.png" alt="E-commerce Website laptop"/>
           </div>
@@ -62,8 +62,8 @@ export default function Home() {
           </div>
          </div>
         </div>
-        <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div id="ai" className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="sketch" className="projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/drawing-both.png" alt="E-commerce Website laptop"/>
           </div>
@@ -90,8 +90,8 @@ export default function Home() {
           </div>
          </div>
         </div>
-        <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div id="geo" className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="geo" className="projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/geo-prod.png" alt="E-commerce Website laptop"/>
           </div>
@@ -103,7 +103,6 @@ export default function Home() {
                   countries of the world. I really enjoy geography which inspired me to make this project.
                   Learn Geo utilizes an API I created to get information on the countries, and is open for
                   anyone to use.
-                  
                 </p>
               </div>
               <div className="">
@@ -119,8 +118,8 @@ export default function Home() {
           </div>
          </div>
         </div>
-        <div className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div id="boost" className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="boost" className="projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/fitness-prod.png" alt="E-commerce Website laptop"/>
           </div>
@@ -163,42 +162,43 @@ export default function Home() {
           <div className="about-box w-2/5 h-full">
             <p className="text-2xl py-6 px-3">Contact Me</p>
             <div className="pl-10">
-              <p className="text-lg">Email Address:</p>
+              <p className="text-lg">Email <i className="fa-solid fa-envelope fa-lg pl-1.5"></i></p>
               <a className="pl-10 underline" href="mailto:jschueren1431@gmail.com">jschueren1431@gmail.com</a>
-              <p className="text-lg">Linked In:</p>
+              <p className="text-lg pt-6">Linked In <i className="fa-brands fa-linkedin fa-lg pl-1.5"></i></p>
               <p className="pl-10 underline">placeholder</p>
-              <p className="text-lg">Github:</p>
+              <p className="text-lg pt-6">Github <i className="fa-brands fa-github fa-lg pl-1.5"></i></p>
               <a className="pl-10 underline" href="https://github.com/joeschueren">joeschueren</a>
             </div>
           </div>
         </div>
       </section>
       <section id="email">
-        <div className="about-div flex item-center justify-center w-full mb-28">
-        <p className="text-2xl">My Skills</p>
-            <div className="w-2/5 skill-desc flex items-center justify-center">
-              <p className="w-4/5 text-center text-lg">
-                These are the some of the skills that are highlighted in my projects and portfolio. Each of my projects
-                has a breakdown of which skills were used to make it. If you want to view a project with a specific skill
-                click on the skill and it will take you to the project.</p>
+        <p className="tech-title text-2xl w-4/5 m-auto">My Skills</p>
+        <div className="about-div flex items-center justify-center w-full mb-28">
+            <div className="w-2/5 skill-desc flex items-center justify-center flex-col">
+              <p className="w-4/5 text-center text-lg pb-6">
+                These are the some of the skills that are highlighted in my projects and portfolio.</p>
+                <p className="w-4/5 text-center text-lg pb-6"> Each of my projects has a breakdown of which skills were used to make it.</p>
+                <p className="w-4/5 text-center text-lg pb-12">If you want to view a project with a specific skill click on the skill and it
+                   will take you to the project.</p>
             </div>
             <div className="about-box w-2/5 h-full">
-            <p className="text-center pb-6 pt-12">Languages</p>
+            <p className="text-center text-2xl bold pb-6">Languages</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
               <a href="#store" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.png" width="50" height="50"></img>Typescript</a>
               <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.png" width="50" height="50"></img>Python</a>
-              <a href="boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.png" width="50" height="50"></img>C#</a>
+              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.png" width="50" height="50"></img>C#</a>
             </div>
-            <p className="text-center py-6">Frontend</p>
+            <p className="text-center text-2xl bold py-6">Frontend</p>
             <div className="tech-row flex items-center justify-evenly px-20 pb-3">
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.png" width="50" height="50"></img>React</a>
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.png" width="50" height="50"></img>Next.js</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.png" width="50" height="50"></img>Bootstrap</a>
               <a className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.png" width="50" height="50"></img>Tailwind</a>
             </div>
-            <p className="text-center py-6">Backend</p>
-            <div className="tech-row flex items-center justify-evenly px-20 pb-3">
+            <p className="text-center text-2xl bold py-6">Backend</p>
+            <div className="tech-row flex items-center justify-between px-20 pb-3">
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Node.png" width="50" height="50"></img>Node.js</a>
               <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Flask.png" width="50" height="50"></img>Flask</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Net.png" width="50" height="50"></img>.Net</a>
