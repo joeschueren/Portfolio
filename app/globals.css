@@ -96,6 +96,7 @@ body {
 
 .tech-anchor{
   height: 30%;
+  color: grey
 }
 
 @media(max-width: 1000px){
