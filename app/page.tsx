@@ -184,14 +184,14 @@ export default function Home() {
             </div>
             <div className="about-box w-2/5 h-full">
             <p className="text-center text-2xl bold pb-6">Languages</p>
-            <div className="tech-row flex items-center justify-evenly px-20 pb-3">
+            <div className="tech-row flex items-center justify-between px-20 pb-3">
               <a href="#store" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.png" width="50" height="50"></img>Typescript</a>
               <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.png" width="50" height="50"></img>Python</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.png" width="50" height="50"></img>C#</a>
             </div>
             <p className="text-center text-2xl bold py-6">Frontend</p>
-            <div className="tech-row flex items-center justify-evenly px-20 pb-3">
+            <div className="tech-row flex items-center justify-between px-20 pb-3">
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.png" width="50" height="50"></img>React</a>
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.png" width="50" height="50"></img>Next.js</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.png" width="50" height="50"></img>Bootstrap</a>
