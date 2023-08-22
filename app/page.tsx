@@ -153,21 +153,21 @@ export default function Home() {
         <div className="flex items-center justify-center w-full flex-wrap flex-row about-div">
           <div className="about-box w-2/5 h-full mb-auto">
           <p className="text-2xl py-6">About Me</p>
-              <p className="text-lg">I am a 20 year old software developer from Ohio, I enjoy Golfing, Fantasy Football, and
+              <p className="text-lg about-text">I am a 20 year old software developer from Ohio, I enjoy Golfing, Fantasy Football, and
                 helping with friends with their programming homework. I first starting programming in
                 highschool, and was immediately fascinated. Now I encourage everyone to learn how to program
                 and see the world they are missing out on.
               </p>
           </div>
-          <div className="about-box w-2/5 h-full">
-            <p className="text-2xl py-6 px-3">Contact Me</p>
-            <div className="pl-10">
+          <div className="contact-box w-2/5 h-full">
+            <p className="contact-title text-2xl py-6 px-3 text-center">Contact Me</p>
+            <div className="pl-12">
               <p className="text-lg">Email <i className="fa-solid fa-envelope fa-lg pl-1.5"></i></p>
-              <a className="pl-10 underline" href="mailto:jschueren1431@gmail.com">jschueren1431@gmail.com</a>
+              <a className="pl-12 underline" href="mailto:jschueren1431@gmail.com">jschueren1431@gmail.com</a>
               <p className="text-lg pt-6">Linked In <i className="fa-brands fa-linkedin fa-lg pl-1.5"></i></p>
-              <p className="pl-10 underline">placeholder</p>
+              <p className="pl-12 underline">placeholder</p>
               <p className="text-lg pt-6">Github <i className="fa-brands fa-github fa-lg pl-1.5"></i></p>
-              <a className="pl-10 underline" href="https://github.com/joeschueren">joeschueren</a>
+              <a className="pl-12 underline" href="https://github.com/joeschueren">joeschueren</a>
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function Home() {
         <div className="about-div flex items-center justify-center w-full mb-28">
             <div className="w-2/5 skill-desc flex items-center justify-center flex-col">
               <p className="w-4/5 text-center text-lg pb-6">
-                These are the some of the skills that are highlighted in my projects and portfolio.</p>
+                These are some of the skills that are highlighted in my projects and portfolio.</p>
                 <p className="w-4/5 text-center text-lg pb-6"> Each of my projects has a breakdown of which skills were used to make it.</p>
                 <p className="w-4/5 text-center text-lg pb-12">If you want to view a project with a specific skill click on the skill and it
                    will take you to the project.</p>
