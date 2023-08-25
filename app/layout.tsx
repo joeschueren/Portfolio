@@ -18,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Joe Schueren | Software Developer</title>
         <script src="https://kit.fontawesome.com/a62fd80284.js" crossOrigin="anonymous"></script>
       </head>
       <body className={inter.className}>
