@@ -188,23 +188,23 @@ export default function Home() {
             <p className="text-center text-2xl bold pb-6">Languages</p>
             <div className="tech-row flex items-center justify-between px-20 pb-3">
               <a href="#store" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.png" width="50" height="50"></img>Typescript</a>
-              <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.png" width="50" height="50"></img>Python</a>
-              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.png" width="50" height="50"></img>C#</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.PNG" width="50" height="50"></img>Typescript</a>
+              <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.PNG" width="50" height="50"></img>Python</a>
+              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.PNG" width="50" height="50"></img>C#</a>
             </div>
             <p className="text-center text-2xl bold py-6">Frontend</p>
             <div className="tech-row flex items-center justify-between px-20 pb-3">
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.png" width="50" height="50"></img>React</a>
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.png" width="50" height="50"></img>Next.js</a>
-              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.png" width="50" height="50"></img>Bootstrap</a>
-              <a className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.png" width="50" height="50"></img>Tailwind</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.PNG" width="50" height="50"></img>React</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.PNG" width="50" height="50"></img>Next.js</a>
+              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.PNG" width="50" height="50"></img>Bootstrap</a>
+              <a className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.PNG" width="50" height="50"></img>Tailwind</a>
             </div>
             <p className="text-center text-2xl bold py-6">Backend</p>
             <div className="tech-row flex items-center justify-between px-20 pb-3">
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Node.png" width="50" height="50"></img>Node.js</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Node.PNG" width="50" height="50"></img>Node.js</a>
               <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Flask.png" width="50" height="50"></img>Flask</a>
-              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Net.png" width="50" height="50"></img>.Net</a>
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Mongo.png" width="50" height="50"></img>MongoDB</a>
+              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Net.PNG" width="50" height="50"></img>.Net</a>
+              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Mongo.PNG" width="50" height="50"></img>MongoDB</a>
             </div>
           </div>
         </div>
