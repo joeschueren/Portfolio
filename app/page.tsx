@@ -1,6 +1,8 @@
-import Image from 'next/image'
-
 export default function Home() {
+  fetch("https://boostfitness.azurewebsites.net/");
+  fetch("https://eshopapi-1iz1.onrender.com");
+  fetch("https://sketchdetect.onrender.com");
+  fetch("https://learn-geo-api.onrender.com");
   return (
     <div>
       <div className="nav">
@@ -142,7 +144,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="live-demo mx-2.5 my-2.5" href="https://boostfitness.azurewebsites.net/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
                 <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/Boost-Fitness" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
