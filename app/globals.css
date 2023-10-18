@@ -162,6 +162,10 @@ body {
     margin: 0px auto;
   }
 
+  .about-info{
+    padding: 0px;
+  }
+
   .contact-box{
     width: 100%;
     padding-left: 1rem;

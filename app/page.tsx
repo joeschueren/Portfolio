@@ -15,7 +15,7 @@ export default function Home() {
           <a href="mailto:joeschueren@gmail.com"><i className="fa-solid fa-envelope fa-xl"></i></a>
         </div>
         <div className="nav-link">
-          <a href="about">About</a>
+          <a href="#about">About</a>
         </div>
         <div className="nav-link">
           <a href="#projects">Projects</a>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </section>
       <section className="projects-section mt-28">
-        <h1 id="projects" className="text-center text-6xl mt-5">My Projects</h1>
+        <h1 id="projects" className="text-center text-6xl mt-5">Projects</h1>
         <div id="store" className="projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
@@ -163,7 +163,7 @@ export default function Home() {
           </div>
           <div className="contact-box w-2/5 h-full">
             <p className="contact-title text-2xl py-6 px-3 pl-12 text-center">Contact Me</p>
-            <div className="pl-12">
+            <div className="pl-12 about-info">
               <p className="text-lg pb-1.5">Email <i className="fa-solid fa-envelope fa-lg pl-1.5"></i></p>
               <a className="underline" href="mailto:joeschueren@gmail.com">joeschueren@gmail.com</a>
               <p className="text-lg pt-6 pb-1.5">LinkedIn <i className="fa-brands fa-linkedin fa-lg pl-1.5"></i></p>
