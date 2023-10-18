@@ -1,8 +1,8 @@
 export default function Home() {
-  fetch("https://boostfitness.azurewebsites.net/");
-  fetch("https://eshopapi-1iz1.onrender.com");
-  fetch("https://sketchdetect.onrender.com");
-  fetch("https://learn-geo-api.onrender.com");
+  // fetch("https://boostfitness.azurewebsites.net/");
+  // fetch("https://eshopapi-1iz1.onrender.com");
+  // fetch("https://sketchdetect.onrender.com");
+  // fetch("https://learn-geo-api.onrender.com");
   return (
     <div>
       <div className="nav">
@@ -12,7 +12,7 @@ export default function Home() {
           </a>
         </div>
         <div className="nav-link">
-          <a href="mailto:jschueren1431@gmail.com"><i className="fa-solid fa-envelope fa-xl"></i></a>
+          <a href="mailto:joeschueren@gmail.com"><i className="fa-solid fa-envelope fa-xl"></i></a>
         </div>
         <div className="nav-link">
           <a href="about">About</a>
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </section>
       <section className="projects-section mt-28">
-        <h1 id="projects" className="text-center text-6xl mt-5">Projects</h1>
+        <h1 id="projects" className="text-center text-6xl mt-5">My Projects</h1>
         <div id="store" className="projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-20 justify-center items-center flex-row">
           <div className="project-image w-2/5">
@@ -162,14 +162,14 @@ export default function Home() {
               </p>
           </div>
           <div className="contact-box w-2/5 h-full">
-            <p className="contact-title text-2xl py-6 px-3 text-center">Contact Me</p>
+            <p className="contact-title text-2xl py-6 px-3 pl-12 text-center">Contact Me</p>
             <div className="pl-12">
-              <p className="text-lg">Email <i className="fa-solid fa-envelope fa-lg pl-1.5"></i></p>
-              <a className="pl-12 underline" href="mailto:jschueren1431@gmail.com">jschueren1431@gmail.com</a>
-              <p className="text-lg pt-6">Linked In <i className="fa-brands fa-linkedin fa-lg pl-1.5"></i></p>
-              <p className="pl-12 underline">placeholder</p>
-              <p className="text-lg pt-6">Github <i className="fa-brands fa-github fa-lg pl-1.5"></i></p>
-              <a className="pl-12 underline" href="https://github.com/joeschueren">joeschueren</a>
+              <p className="text-lg pb-1.5">Email <i className="fa-solid fa-envelope fa-lg pl-1.5"></i></p>
+              <a className="underline" href="mailto:joeschueren@gmail.com">joeschueren@gmail.com</a>
+              <p className="text-lg pt-6 pb-1.5">LinkedIn <i className="fa-brands fa-linkedin fa-lg pl-1.5"></i></p>
+              <a className="underline" href="https://linkedin.com/in/joeschueren">joeschueren</a>
+              <p className="text-lg pt-6 pb-1.5">Github <i className="fa-brands fa-github fa-lg pl-1.5"></i></p>
+              <a className="underline" href="https://github.com/joeschueren">joeschueren</a>
             </div>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function Home() {
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.PNG" width="50" height="50"></img>React</a>
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.PNG" width="50" height="50"></img>Next.js</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.PNG" width="50" height="50"></img>Bootstrap</a>
-              <a className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.PNG" width="50" height="50"></img>Tailwind</a>
+              <a href="https://github.com/joeschueren/Portfolio" target="_blank" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.PNG" width="50" height="50"></img>Tailwind</a>
             </div>
             <p className="text-center text-2xl bold py-6">Backend</p>
             <div className="tech-row flex items-center justify-between px-20 pb-3">
