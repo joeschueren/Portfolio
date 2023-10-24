@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="live-demo mx-2.5 my-2.5" target='_blank' href="https://sketchdetect.onrender.com/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
                 <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/SketchDetect" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
