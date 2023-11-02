@@ -116,6 +116,28 @@ body {
   object-position: center center;
 }
 
+
+@media(min-width: 1000px){
+
+  .hide{
+    opacity: 0;
+    transform: translateX(-10%);
+    transition: all 1s;
+  }
+  
+  .hide2{
+    display: absolute;
+    opacity: 0;
+    transform: translateX(10%);
+    transition: all 1s;
+  }
+}
+
+.show{
+  opacity: 1;
+  transform: translateX(0);
+}
+
 @media(max-width: 1000px){
   .project-image, .project-desc{
     width: 85%;

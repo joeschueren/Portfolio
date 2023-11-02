@@ -1,8 +1,29 @@
+"use client";
+import { useEffect } from "react";
+
 export default function Home() {
-  fetch("https://boostfitness.azurewebsites.net/");
-  fetch("https://eshopapi-1iz1.onrender.com");
-  fetch("https://sketchdetect.onrender.com");
-  fetch("https://learn-geo-api.onrender.com");
+  // fetch("https://boostfitness.azurewebsites.net/");
+  // fetch("https://eshopapi-1iz1.onrender.com");
+  // fetch("https://sketchdetect.onrender.com");
+  // fetch("https://learn-geo-api.onrender.com");
+
+  useEffect(() =>{
+    console.log("in observer")
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry)=>{
+      if(entry.isIntersecting){
+        entry.target.classList.add("show");
+      }
+    })
+  })
+
+  const hiddenElements = document.querySelectorAll(".hide");
+  const hidden2Elements = document.querySelectorAll(".hide2")
+  hiddenElements.forEach((el) => observer.observe(el));
+  hidden2Elements.forEach((el) => observer.observe(el))
+}, []);
+
+
   return (
     <div>
       <div className="nav">
@@ -37,35 +58,37 @@ export default function Home() {
       </section>
       <section className="projects-section mt-28">
         <h1 id="projects" className="text-center text-6xl mt-5">Projects</h1>
-        <div id="store" className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="geo" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
-            <img src="/ecom-both.png" alt="E-commerce Website laptop"/>
+            <img src="/geo-prod.png" alt="E-commerce Website laptop"/>
           </div>
           <div className="project-desc w-2/5 p-10">
               <div className="">
-                <h1 className="text-2xl pb-5 text-center">E-commerce Website</h1>
+                <h1 className="text-2xl pb-5 text-center">Learn Geo</h1>
                 <p className="text-sm pb-5 text-center">
-                  This is an e-commerce website created with items obtained from fakestore api
-                  it displays the items from the inventory stored in a database and tracks the items
-                  items that the user wants to buy with a cart system.
+                  Learn Geo is an educational site where the user can view information about all the
+                  countries of the world. Learn Geo also offers games to learn including quizzes and interactive maps.
+                  I really enjoy geography and knowing about the world around me which inspired me to make this project.
+                  Learn Geo utilizes an API I created to get information on the countries, and is open for
+                  anyone to use.
                 </p>
               </div>
               <div className="">
                 <h3 className="text-xl text-center">Created With:</h3>
                 <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
-                  <p>React &middot; Express.js &middot; Node.js &middot; MongoDB</p>
+                  <p>Typescript &middot; Next.js &middot; React &middot; Express.js &middot; MongoDB</p>
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5 my-2.5" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+                <a className="live-demo mx-2.5 my-2.5" href="https://learn-geo.vercel.app/" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/Learn-Geo-Frontend" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
         </div>
-        <div id="sketch" className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="sketch" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/drawing-both.png" alt="E-commerce Website laptop"/>
           </div>
@@ -92,36 +115,36 @@ export default function Home() {
           </div>
          </div>
         </div>
-        <div id="geo" className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="store" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
-            <img src="/geo-prod.png" alt="E-commerce Website laptop"/>
+            <img src="/ecom-both.png" alt="E-commerce Website laptop"/>
           </div>
           <div className="project-desc w-2/5 p-10">
               <div className="">
-                <h1 className="text-2xl pb-5 text-center">Learn Geo</h1>
+                <h1 className="text-2xl pb-5 text-center">eShop</h1>
                 <p className="text-sm pb-5 text-center">
-                  Learn Geo is an educational site where the user can view information about all the
-                  countries of the world. I really enjoy geography which inspired me to make this project.
-                  Learn Geo utilizes an API I created to get information on the countries, and is open for
-                  anyone to use.
+                  This is an e-commerce website created with items obtained from fakestore api
+                  it displays the items from the inventory stored in a database and tracks the items
+                  items that the user wants to buy with a cart system, and provides seamless checkout with
+                  stripe integration.
                 </p>
               </div>
               <div className="">
                 <h3 className="text-xl text-center">Created With:</h3>
                 <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
-                  <p>Typescript &middot; Next.js &middot; React &middot; Express.js &middot; MongoDB</p>
+                  <p>React &middot; Express.js &middot; Node.js &middot; MongoDB</p>
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5 my-2.5" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+                <a className="live-demo mx-2.5 my-2.5" target='_blank' href="https://eshop-three-neon.vercel.app/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" target='_blank' href="https://github.com/joeschueren/eShop-Frontend">View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
         </div>
-        <div id="boost" className="projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-20 justify-center items-center flex-row">
+        <div id="boost" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
             <img src="/fitness-prod.png" alt="E-commerce Website laptop"/>
           </div>
@@ -144,8 +167,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5" href="https://boostfitness.azurewebsites.net/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/Boost-Fitness" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+                <a className="live-demo mx-2.5 my-2.5" target="_blank" href="https://boostfitness.azurewebsites.net/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" target="_blank" href="https://github.com/joeschueren/Boost-Fitness">View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
@@ -186,21 +209,21 @@ export default function Home() {
             </div>
             <div className="about-box w-2/5 h-full">
             <p className="text-center text-2xl bold pb-6">Languages</p>
-            <div className="tech-row flex items-center justify-between px-20 pb-3">
+            <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
               <a href="#store" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.PNG" width="50" height="50"></img>Typescript</a>
               <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.PNG" width="50" height="50"></img>Python</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.PNG" width="50" height="50"></img>C#</a>
             </div>
             <p className="text-center text-2xl bold py-6">Frontend</p>
-            <div className="tech-row flex items-center justify-between px-20 pb-3">
+            <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.PNG" width="50" height="50"></img>React</a>
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.PNG" width="50" height="50"></img>Next.js</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.PNG" width="50" height="50"></img>Bootstrap</a>
               <a href="https://github.com/joeschueren/Portfolio" target="_blank" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.PNG" width="50" height="50"></img>Tailwind</a>
             </div>
             <p className="text-center text-2xl bold py-6">Backend</p>
-            <div className="tech-row flex items-center justify-between px-20 pb-3">
+            <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
               <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Node.PNG" width="50" height="50"></img>Node.js</a>
               <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Flask.png" width="50" height="50"></img>Flask</a>
               <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Net.PNG" width="50" height="50"></img>.Net</a>
