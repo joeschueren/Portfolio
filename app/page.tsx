@@ -39,7 +39,7 @@ export default function Home() {
           <a href="#about">About</a>
         </div>
         <div className="nav-link">
-          <a href="#projects">Projects</a>
+          <a href="#projects">My Work</a>
         </div>
       </div>
       <section className="landing-section flex justify-center w-full h-screen items-center">
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </section>
       <section className="projects-section mt-28">
-        <h1 id="projects" className="text-center text-6xl mt-5">Projects</h1>
+        <h1 id="projects" className="text-center text-6xl mt-5">My Work</h1>
         <div id="geo" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
@@ -163,7 +163,7 @@ export default function Home() {
               <div className="">
                 <h3 className="text-xl text-center">Created With:</h3>
                 <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
-                  <p>C# &middot; .Net &middot; MVC &middot; SQL Database</p>
+                  <p>C# &middot; .Net &middot; MVC &middot; Microsoft SQL Database</p>
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
@@ -177,15 +177,15 @@ export default function Home() {
       <section id="about" className="my-28">
         <div className="flex items-center justify-center w-full flex-wrap flex-row about-div">
           <div className="about-box w-2/5 h-full mb-auto">
-          <p className="text-2xl py-6">About Me</p>
+          <p className="text-2xl pb-3">About Me</p>
               <p className="text-lg about-text">I am a 20 year old software developer from Ohio, I enjoy Golfing, Fantasy Football, and
-                helping with friends with their programming homework. I first starting programming in
+                helping friends with their programming homework. I first starting programming in
                 highschool, and was immediately fascinated. Now I encourage everyone to learn how to program
                 and see the world they are missing out on.
               </p>
           </div>
           <div className="contact-box w-2/5 h-full">
-            <p className="contact-title text-2xl py-6 px-3 pl-12 text-center">Contact Me</p>
+            <p className="contact-title text-2xl pb-3 px-3 pl-12 text-center">Contact Me</p>
             <div className="pl-12 about-info">
               <p className="text-lg pb-1.5">Email <i className="fa-solid fa-envelope fa-lg pl-1.5"></i></p>
               <a className="underline" href="mailto:joeschueren@gmail.com">joeschueren@gmail.com</a>
@@ -199,7 +199,7 @@ export default function Home() {
       </section>
       <section id="email">
         <p className="tech-title text-2xl w-4/5 m-auto">My Skills</p>
-        <div className="about-div flex items-center justify-center w-full mb-28">
+        <div className="flex items-center justify-center w-full mb-28">
             <div className="w-2/5 skill-desc flex items-center justify-center flex-col">
               <p className="w-4/5 text-center text-lg pb-6">
                 These are some of the skills that are highlighted in my projects and portfolio.</p>
