@@ -67,6 +67,13 @@ body {
   width: 100%;
 }
 
+.project-divider{
+  width: 50%;
+  margin: auto;
+  height: 2px;
+  background-color: #837cfc;
+}
+
 .tech-container{
   text-align: center;
 }
@@ -128,6 +135,26 @@ body {
   height: 50px;
   object-fit: contain;
   object-position: center center;
+}
+
+.skills-container{
+  padding: 4%;
+  margin: 4% 0px;
+  margin: 7%;
+  border: 2px solid #6c63ff;
+  border-radius: 25px;
+  background: white;
+}
+
+#about{
+  margin-bottom: 0px;
+}
+
+#email{
+  background: url("../public/skillsbg.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 5% 0%;
 }
 
 
@@ -216,20 +243,60 @@ body {
     padding-top: 3rem;
     padding-left: 0px;
   }
+
+  .skills-row{
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 500px){
+  #about{
+    background: none;
+  }
+
+  .about-div{
+    border: none;
+    border-radius: 0px;
+  }
 }
 
 @media(max-width: 767px){
 
   #about{
-    background: url("../public/aboutbgmobile.svg");
+    background: none;
+    margin-top: 0px;
+  }
+
+  .about-div{
+    border: none;
+    border-radius: 0px;
+    padding: 5%;
   }
 
   body{
     font-size: 1rem;
   }
 
-  .text-sm{
+  .skills-container{
+    margin: 0%;
+    border: none;
+    border-radius: 0px;
+  }
+
+  .contact-box{
+    padding: 0px;
+  }
+
+  .text-sm, .text-lg{
     font-size: 1rem;
+  }
+
+  .about-div{
+    width: 100%;
+  }
+
+  .about-text{
+    width: 90%;
   }
 
   .nav{
@@ -293,8 +360,9 @@ body {
 }
 
 @media(max-width: 1300px){
-  .tech-row{
-    padding: 0px 10%;
+
+  .tech-anchor{
+    font-size: 14px;
   }
 }
 
@@ -308,5 +376,17 @@ body {
   .title-text{
     font-size: 1.5rem;
     padding: 1rem;
+  }
+}
+
+@media(min-width: 1600px){
+  .project-desc{
+    padding: 25px 8%;
+  }
+}
+
+@media(max-width: 1600px){
+  .tech-row{
+    padding: 0px 5%;
   }
 }

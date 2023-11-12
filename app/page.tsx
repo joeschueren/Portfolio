@@ -86,6 +86,7 @@ export default function Home() {
               </div>
           </div>
          </div>
+         <div className="project-divider"></div>
         </div>
         <div id="sketch" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
@@ -114,6 +115,7 @@ export default function Home() {
               </div>
           </div>
          </div>
+         <div className="project-divider"></div>
         </div>
         <div id="store" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
@@ -142,6 +144,7 @@ export default function Home() {
               </div>
           </div>
          </div>
+         <div className="project-divider"></div>
         </div>
         <div id="boost" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
@@ -198,36 +201,38 @@ export default function Home() {
         </div>
       </section>
       <section id="email">
-        <p className="tech-title text-2xl w-4/5 m-auto">My Skills</p>
-        <div className="flex items-center justify-center w-full mb-28">
-            <div className="w-2/5 skill-desc flex items-center justify-center flex-col">
-              <p className="w-4/5 text-center text-lg pb-6">
-                These are some of the skills that are highlighted in my projects and portfolio.</p>
-                <p className="w-4/5 text-center text-lg pb-6"> Each of my projects has a breakdown of which skills were used to make it.</p>
-                <p className="w-4/5 text-center text-lg pb-12">If you want to view a project with a specific skill click on the skill and it
-                   will take you to the project.</p>
-            </div>
-            <div className="about-box w-2/5 h-full">
-            <p className="text-center text-2xl bold pb-6">Languages</p>
-            <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
-              <a href="#store" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.PNG" width="50" height="50"></img>Typescript</a>
-              <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.PNG" width="50" height="50"></img>Python</a>
-              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.PNG" width="50" height="50"></img>C#</a>
-            </div>
-            <p className="text-center text-2xl bold py-6">Frontend</p>
-            <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.PNG" width="50" height="50"></img>React</a>
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.PNG" width="50" height="50"></img>Next.js</a>
-              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.PNG" width="50" height="50"></img>Bootstrap</a>
-              <a href="https://github.com/joeschueren/Portfolio" target="_blank" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.PNG" width="50" height="50"></img>Tailwind</a>
-            </div>
-            <p className="text-center text-2xl bold py-6">Backend</p>
-            <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Node.PNG" width="50" height="50"></img>Node.js</a>
-              <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Flask.png" width="50" height="50"></img>Flask</a>
-              <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Net.PNG" width="50" height="50"></img>.Net</a>
-              <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Mongo.PNG" width="50" height="50"></img>MongoDB</a>
+        <div className="skills-container">
+          <p className="tech-title text-2xl w-4/5 m-auto pb-3">My Skills</p>
+          <div className="skills-row flex items-center justify-center w-full">
+              <div className="w-2/5 skill-desc flex items-center justify-center flex-col">
+                <p className="w-4/5 text-center text-lg pb-6">
+                  These are some of the skills that are highlighted in my projects and portfolio.</p>
+                  <p className="w-4/5 text-center text-lg pb-6"> Each of my projects has a breakdown of which skills were used to make it.</p>
+                  <p className="w-4/5 text-center text-lg pb-12">If you want to view a project with a specific skill click on the skill and it
+                    will take you to the project.</p>
+              </div>
+              <div className="about-box w-2/5 h-full">
+              <p className="text-center text-2xl bold pb-6">Languages</p>
+              <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
+                <a href="#store" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="JS.png" width="50" height="50"></img>Javascript</a>
+                <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="TS.PNG" width="50" height="50"></img>Typescript</a>
+                <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="PY.PNG" width="50" height="50"></img>Python</a>
+                <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image"src="CS.PNG" width="50" height="50"></img>C#</a>
+              </div>
+              <p className="text-center text-2xl bold py-6">Frontend</p>
+              <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
+                <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="React.PNG" width="50" height="50"></img>React</a>
+                <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Next.PNG" width="50" height="50"></img>Next.js</a>
+                <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Boot.PNG" width="50" height="50"></img>Bootstrap</a>
+                <a href="https://github.com/joeschueren/Portfolio" target="_blank" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Tail.PNG" width="50" height="50"></img>Tailwind</a>
+              </div>
+              <p className="text-center text-2xl bold py-6">Backend</p>
+              <div className="hide2 tech-row flex items-center justify-between px-20 pb-3">
+                <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Node.PNG" width="50" height="50"></img>Node.js</a>
+                <a href="#sketch" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Flask.png" width="50" height="50"></img>Flask</a>
+                <a href="#boost" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Net.PNG" width="50" height="50"></img>.Net</a>
+                <a href="#geo" className="tech-anchor text-center flex justify-center items-center flex-col"><img className="tech-image" src="Mongo.PNG" width="50" height="50"></img>MongoDB</a>
+              </div>
             </div>
           </div>
         </div>
