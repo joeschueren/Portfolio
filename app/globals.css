@@ -45,11 +45,17 @@ body {
 
 .nav-link{
   margin: 0px 20px;
+  color: black;
 }
 
 .title-text{
-  font-size: 1.5vw;
+  font-size: 1.75vw;
+  color: #4f4f4f;
   padding: .75vw 0px;
+}
+
+.fav-tech{
+  color:#4f4f4f;
 }
 
 .name-text{
@@ -57,10 +63,18 @@ body {
   padding: .75vw 0px;
 }
 
+.name{
+  color:#6c63ff;
+}
+
 .projects-button{
   background-color: transparent;
   color: var(--main-color);
   border: 2px solid var(--main-color);
+}
+
+.portfolio-text{
+  color: #6c63ff;
 }
 
 .projects-section{
@@ -102,6 +116,13 @@ body {
 .live-demo:hover{
   opacity: 50%;
   cursor: pointer;
+}
+
+.more-about{
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 8%;
+  padding: 0px 3%;
 }
 
 #about{

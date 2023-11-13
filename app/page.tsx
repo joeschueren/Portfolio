@@ -42,12 +42,13 @@ export default function Home() {
           <a href="#projects">My Work</a>
         </div>
       </div>
-      <section className="landing-section flex justify-center w-full h-screen items-center">
+      <section className="landing-section w-full h-screen flex justify-center items-center flex-col">
+        <div className="flex justify-center items-center">
         <div className="flex flex-row justify-end w-4/5 landing-container">
           <div className="intro-div w-2/5 flex justify-center items-center flex-row text-center">
             <div>
-              <h1 className="name-text p-1.5">Hi, I'm Joe.</h1>
-              <h2 className="title-text p-1 mb-3">A Software Developer</h2>
+              <h1 className="name-text p-1.5">Hi, I'm <span className="name">Joe.</span></h1>
+              <h2 className="title-text p-1 mb-3 text-center">I Create User Interfaces and Web Applications</h2>
               <a className="projects-button px-3 py-1.5" href="#projects">View my work <i className="fa-solid fa-arrow-right px-2"></i></a>
             </div>
           </div>
@@ -55,9 +56,10 @@ export default function Home() {
             <img className="landing-image" src="/landing-image.svg"></img>
           </div>
         </div>
+        </div>
       </section>
       <section className="projects-section mt-28">
-        <h1 id="projects" className="text-center text-6xl mt-5">My Work</h1>
+        <h1 id="projects" className="portfolio-text text-left w-4/5 m-auto text-3xl mt-5">My Portfolio</h1>
         <div id="geo" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
