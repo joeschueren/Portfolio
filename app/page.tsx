@@ -67,8 +67,8 @@ export default function Home() {
           </div>
           <div className="project-desc w-2/5 p-10">
               <div className="">
-                <h1 className="text-2xl pb-5 text-center">Learn Geo</h1>
-                <p className="text-sm pb-5 text-center">
+                <h1 className="project-title text-2xl pb-5 text-center">Learn Geo</h1>
+                <p className="text-md pb-5 text-center">
                   Learn Geo is an educational site where the user can view information about all the
                   countries of the world. Learn Geo also offers games to learn including quizzes and interactive maps.
                   I really enjoy geography and knowing about the world around me which inspired me to make this project.
@@ -90,30 +90,32 @@ export default function Home() {
          </div>
          <div className="project-divider"></div>
         </div>
-        <div id="sketch" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
+        <div id="boost" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
-            <img src="/drawing-both.png" alt="E-commerce Website laptop"/>
+            <img src="/fitness-prod.png" alt="E-commerce Website laptop"/>
           </div>
-          <div className="project-desc w-2/5 p-10">
+          <div className="project-title w-2/5 p-10">
               <div className="">
-                <h1 className="text-2xl pb-5 text-center">SketchDetect AI</h1>
-                <p className="text-sm pb-5 text-center">
-                  SketchDetect is a form of Artificial Intelligence that can tell what a user is drawing.
-                  I find AI very interesting and wanted to create my own. With very little computing power
-                  and having to collect all of the data by myself I decided on making the most complex neural
-                  network that I thought would be plausible, and decided on making one that can detect hand drawn images.
+                <h1 className="text-2xl pb-5 text-center">Boost Fitness</h1>
+                <p className="text-md pb-5 text-center">
+                  Boost Fitness is a fitness platform where users can track the calories they eat and the minutes
+                  they exercise each day and have the calories that they burned for the day automatically calculated
+                  along with a plan for the week on how they can reach the goals they set. I was inspired to make this
+                  because I was looking for a place to track my fitness but they didn't have what I wanted, so I decided
+                  to make it myself.
+                  
                 </p>
               </div>
               <div className="">
                 <h3 className="text-xl text-center">Created With:</h3>
                 <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
-                  <p>Python &middot; Flask &middot; TensorFlow &middot; Numpy &middot; PIL</p>
+                  <p>C# &middot; .Net &middot; MVC &middot; Microsoft SQL Database</p>
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5" target='_blank' href="https://sketchdetect.onrender.com/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/SketchDetect" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+                <a className="live-demo mx-2.5 my-2.5" target="_blank" href="https://boostfitness.azurewebsites.net/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" target="_blank" href="https://github.com/joeschueren/Boost-Fitness">View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
@@ -126,7 +128,7 @@ export default function Home() {
           </div>
           <div className="project-desc w-2/5 p-10">
               <div className="">
-                <h1 className="text-2xl pb-5 text-center">eShop</h1>
+                <h1 className="project-title text-2xl pb-5 text-center">eShop</h1>
                 <p className="text-sm pb-5 text-center">
                   This is an e-commerce website created with items obtained from fakestore api
                   it displays the items from the inventory stored in a database and tracks the items
@@ -148,32 +150,31 @@ export default function Home() {
          </div>
          <div className="project-divider"></div>
         </div>
-        <div id="boost" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
+        <div id="sketch" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
-            <img src="/fitness-prod.png" alt="E-commerce Website laptop"/>
+            <img src="/drawing-both.png" alt="E-commerce Website laptop"/>
           </div>
+          
           <div className="project-desc w-2/5 p-10">
               <div className="">
-                <h1 className="text-2xl pb-5 text-center">Boost Fitness</h1>
+                <h1 className="project-title text-2xl pb-5 text-center">SketchDetect AI</h1>
                 <p className="text-sm pb-5 text-center">
-                  Boost Fitness is a fitness platform where users can track the calories they eat and the minutes
-                  they exercise each day and have the calories that they burned for the day automatically calculated
-                  along with a plan for the week on how they can reach the goals they set. I was inspired to make this
-                  because I was looking for a place to track my fitness but they didn't have what I wanted, so I decided
-                  to make it myself.
-                  
+                  SketchDetect is a form of Artificial Intelligence that can tell what a user is drawing.
+                  I find AI very interesting and wanted to create my own. With very little computing power
+                  and having to collect all of the data by myself I decided on making the most complex neural
+                  network that I thought would be plausible, and decided on making one that can detect hand drawn images.
                 </p>
               </div>
               <div className="">
                 <h3 className="text-xl text-center">Created With:</h3>
                 <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
-                  <p>C# &middot; .Net &middot; MVC &middot; Microsoft SQL Database</p>
+                  <p>Python &middot; Flask &middot; TensorFlow &middot; Numpy &middot; PIL</p>
                 </div>
               </div>
               <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5" target="_blank" href="https://boostfitness.azurewebsites.net/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5 my-2.5" target="_blank" href="https://github.com/joeschueren/Boost-Fitness">View Code <i className="fa-brands fa-github"></i></a>
+                <a className="live-demo mx-2.5 my-2.5" target='_blank' href="https://sketchdetect.onrender.com/">Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/SketchDetect" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
