@@ -2,10 +2,10 @@
 import { useEffect } from "react";
 
 export default function Home() {
-  // fetch("https://boostfitness.azurewebsites.net/");
-  // fetch("https://eshopapi-1iz1.onrender.com");
-  // fetch("https://sketchdetect.onrender.com");
-  // fetch("https://learn-geo-api.onrender.com");
+  fetch("https://boostfitness.azurewebsites.net/");
+  fetch("https://eshopapi-1iz1.onrender.com");
+  fetch("https://sketchdetect.onrender.com");
+  fetch("https://learn-geo-api.onrender.com");
 
   useEffect(() =>{
     console.log("in observer")
