@@ -88,6 +88,10 @@ body {
   background-color: #837cfc;
 }
 
+.warning{
+  color: #9735c4;
+}
+
 .tech-container{
   text-align: center;
 }
