@@ -72,8 +72,8 @@ export default function Home() {
                 <p className="text-md pb-5 text-center">
                   Warden Finance is a finance and budgeting app. Users can track their transcations and see
                   how much money they are spending on food, gas, and all of their expenses. I decided to make this app because I
-                  needed to track where my money was going to keep on top of my finances. It is currently a work in progress
-                  the design for the site is established but the features are still being developed.
+                  needed to track where my money was going to keep on top of my finances. Warden finance is my solution
+                  to keeping track of my money and making smart financial decisions.
                 </p>
                 <div className="flex items-center justify-center pb-3">
                 </div>
