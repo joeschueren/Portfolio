@@ -6,10 +6,10 @@ export default function Home() {
   fetch("https://eshopapi-1iz1.onrender.com");
   fetch("https://sketchdetect.onrender.com");
   fetch("https://learn-geo-api.onrender.com");
+  fetch("https://warden-backend.onrender.com");
   
 
   useEffect(() =>{
-    console.log("in observer")
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry)=>{
       if(entry.isIntersecting){
@@ -61,6 +61,37 @@ export default function Home() {
       </section>
       <section className="projects-section mt-28">
         <h1 id="projects" className="portfolio-text text-left w-4/5 m-auto text-3xl mt-5">My Portfolio</h1>
+        <div id="warden" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
+          <div className="project flex px-50 my-10 justify-center items-center flex-row">
+          <div className="project-image w-2/5">
+            <img src="/warden-prod.png" alt="E-commerce Website laptop"/>
+          </div>
+          <div className="project-desc w-2/5 p-10">
+              <div className="">
+                <h1 className="project-title text-2xl pb-5 text-center">Warden Finance</h1>
+                <p className="text-md pb-5 text-center">
+                  Warden Finance is a finance and budgeting app. Users can track their transcations and see
+                  how much money they are spending on food, gas, and all of their expenses. I decided to make this app because I
+                  needed to track where my money was going to keep on top of my finances. It is currently a work in progress
+                  the design for the site is established but the features are still being developed.
+                </p>
+                <div className="flex items-center justify-center pb-3">
+                </div>
+              </div>
+              <div className="">
+                <h3 className="text-xl text-center">Created With:</h3>
+                <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
+                  <p>Typescript &middot; React &middot; Express.js &middot; PostgreSQL</p>
+                </div>
+              </div>
+              <div className="flex justify-center items-center py-10 flex-wrap">
+                <a className="live-demo mx-2.5 my-2.5" href="https://warden-finance.vercel.app/demo" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
+                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/warden-frontend" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
+              </div>
+          </div>
+         </div>
+         <div className="project-divider"></div>
+        </div>
         <div id="geo" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
           <div className="project flex px-50 my-10 justify-center items-center flex-row">
           <div className="project-image w-2/5">
@@ -86,38 +117,6 @@ export default function Home() {
               <div className="flex justify-center items-center py-10 flex-wrap">
                 <a className="live-demo mx-2.5 my-2.5" href="https://learn-geo.vercel.app/" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
                 <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/Learn-Geo-Frontend" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
-              </div>
-          </div>
-         </div>
-         <div className="project-divider"></div>
-        </div>
-        <div id="warden" className="hide projects-container flex justify-center items-center flex-col flew-wrap">
-          <div className="project flex px-50 my-10 justify-center items-center flex-row">
-          <div className="project-image w-2/5">
-            <img src="/warden-prod.png" alt="E-commerce Website laptop"/>
-          </div>
-          <div className="project-desc w-2/5 p-10">
-              <div className="">
-                <h1 className="project-title text-2xl pb-5 text-center">Warden Finance</h1>
-                <p className="text-md pb-5 text-center">
-                  Warden Finance is a finance and budgeting app. Users can track their transcations and see
-                  how much money they are spending on food, gas, and all of their expenses. I decided to make this app because I
-                  needed to track where my money was going to keep on top of my finances. It is currently a work in progress
-                  the design for the site is established but the features are still being developed.
-                </p>
-                <div className="flex items-center justify-center pb-3">
-                  <p className="warning"><i className="fa-solid fa-triangle-exclamation"></i> Work In Progress <i className="fa-solid fa-triangle-exclamation"></i></p>
-                </div>
-              </div>
-              <div className="">
-                <h3 className="text-xl text-center">Created With:</h3>
-                <div className="tech-container flex flex-row justify-evenly pt-5 flex-wrap">
-                  <p>Typescript &middot; React &middot; Express.js &middot; PostreSQL</p>
-                </div>
-              </div>
-              <div className="flex justify-center items-center py-10 flex-wrap">
-                <a className="live-demo mx-2.5 my-2.5" href="https://warden-finance.vercel.app/" target='_blank'>Live Demo <i className="fa-solid fa-circle-play"></i></a>
-                <a className="view-code mx-2.5 my-2.5" href="https://github.com/joeschueren/warden-frontend" target='_blank'>View Code <i className="fa-brands fa-github"></i></a>
               </div>
           </div>
          </div>
